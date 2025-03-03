@@ -12,5 +12,6 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
 runif(10)
+rnorm(10)
 
 ```
