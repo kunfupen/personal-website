@@ -1,0 +1,15 @@
+{
+  "hash": "85cfa7ee58d842ca404df14e7e536662",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Project 1\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(1:10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

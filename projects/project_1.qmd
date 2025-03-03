@@ -1,0 +1,10 @@
+---
+date: "Mar 3, 2025"
+title: "Project 1"
+author: "Khang Thai"
+---
+
+```{r}
+print(1:10)
+```
+
