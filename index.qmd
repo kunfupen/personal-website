@@ -18,13 +18,19 @@ about:
       url: "mailto:khangthai348@gmail.com"
 ---
 
-I am a current senior at UCLA
+I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master's degree in Data Science this coming Fall.
+
+I am actively seeking a summer internship in Data Science
 
 ## Education
 
-University of California, Los Angeles \| B.S. Statistics and Data Science \| Sept 2023 - June 2025
+University of California, Los Angeles \|
 
-San Diego Miramar College \| San Diego, CA \| Aug 2021 - May 2023
+B.S. Statistics and Data Science \| Sept 2023 - June 2025
+
+San Diego Miramar College \| San Diego, CA
+
+Aug 2021 - May 2023
 
 ## Experience
 
