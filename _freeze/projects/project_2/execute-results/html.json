@@ -1,9 +1,11 @@
 {
-  "hash": "f86761bbb3d9e23a1686fb1da512d604",
+  "hash": "693606c5959d81ca115797184f0a8420",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Project 2\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(1:10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ndate: \"Mar 3, 2025\"\ntitle: \"Project 2\"\nauthor: \"Khang Thai\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(1:10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n\n\n:::\n:::\n",
+    "supporting": [
+      "project_2_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
