@@ -4,4 +4,6 @@ listing:
   type: table
   contents:
     - "projects/*.qmd"
+format: html
+css: styles.css
 ---

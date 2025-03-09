@@ -1,1 +1,63 @@
 /* css styles */
+body {
+  background-image: url('20220827_121222.jpeg');
+  background-size: cover;   /* Adjusts the image to cover the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4); /* Adjust opacity here */
+  z-index: -1; /* Makes sure the overlay is behind the content */
+}
+
+/* Center the title on the index page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Full height of the viewport */
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em; /* Adjust font size as needed */
+}
+
+
+
+
+
+
+
+body {
+  color: black; /* Sets all text to black */
+}
+
+
+/* Darken the text and icons for links */
+a {
+  color: #333333 !important; /* Darken text color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a i {
+  color: #333333 !important; /* Darken icon color */
+}
+
+a:hover {
+  color: #000000 !important; /* Darker text color on hover */
+}
+
+a:hover i {
+  color: #000000 !important; /* Darker icon color on hover */
+}
+
+

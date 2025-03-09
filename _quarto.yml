@@ -4,6 +4,7 @@ project:
 website:
   title: "Khang Thai"
   navbar:
+    background:  transparent
     right:
       - href: index.qmd
         text: Home

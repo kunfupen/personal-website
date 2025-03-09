@@ -1,9 +1,35 @@
 ---
 title: "About"
+about:
+  template: trestles
+  image: profile_pic.jpeg
+  links:
+    - icon: file-earmark-text
+      text: Resume
+      href: "Copy of Resume.pdf"
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/khang-thai-361651203/
+    - icon: github
+      text: Github
+      href: https://github.com/kunfupen
+    - icon: envelope
+      text: Email
+      url: "mailto:khangthai348@gmail.com"
+format: html
+css: styles.css
 ---
 
-About this site
+I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master's degree in Data Science this coming Fall.
 
-```{r}
-1 + 1
-```
+I am actively seeking a summer internship in Data Science
+
+## Education
+
+University of California, Los Angeles | B.S. Statistics and Data Science | Sept 2023 - June 2025
+
+San Diego Miramar College \| San Diego, CA \| Aug 2021 - May 2023
+
+## Experience
+
+NeverEnding, Inc. \| Software Developer Backend Intern \| May 2024 - Aug 2024

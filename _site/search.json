@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Khang Thai",
     "section": "",
-    "text": "I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master’s degree in Data Science this coming Fall.\nI am actively seeking a summer internship in Data Science"
+    "text": "Khang Thai"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master’s degree in Data Science this coming Fall.\nI am actively seeking a summer internship in Data Science"
   },
   {
     "objectID": "index.html#education",
@@ -47,5 +47,40 @@
     "title": "Project 1",
     "section": "",
     "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles | B.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA | Aug 2021 - May 2023"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nNeverEnding, Inc. | Software Developer Backend Intern | May 2024 - Aug 2024"
+  },
+  {
+    "objectID": "index.pdf.html",
+    "href": "index.pdf.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master’s degree in Data Science this coming Fall.\nI am actively seeking a summer internship in Data Science"
+  },
+  {
+    "objectID": "index.pdf.html#education",
+    "href": "index.pdf.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Los Angeles |\nB.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA\nAug 2021 - May 2023"
+  },
+  {
+    "objectID": "index.pdf.html#experience",
+    "href": "index.pdf.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nNeverEnding, Inc. | Software Developer Backend Intern | May 2024 - Aug 2024"
   }
 ]
