@@ -34,11 +34,8 @@ h1 {
 
 
 
-
-
-
 body {
-  color: black; /* Sets all text to black */
+  color: black !important; /* Sets all text to black */
 }
 
 
@@ -59,5 +56,38 @@ a:hover {
 a:hover i {
   color: #000000 !important; /* Darker icon color on hover */
 }
+
+
+
+/* Darken the borders of the tables */
+table {
+  border-collapse: collapse;  /* Ensures borders are properly collapsed */
+  width: 100%;  /* Optional: make table take up full width */
+}
+
+table, th, td {
+  border: 2px solid #333;  /* Darker border color, adjust hex value as needed */
+}
+
+th, td {
+  padding: 8px;  /* Adds padding for better readability */
+  text-align: left;  /* Aligns text to the left */
+}
+
+th {
+  background-color: #f2f2f2;  /* Optional: changes header background color */
+}
+
+/* Darken the sort by icon */
+th.sorting i, th.sorting_asc i, th.sorting_desc i {
+  color: #333 !important;  /* Dark gray color */
+}
+
+/* If you're using Font Awesome or similar icon library */
+th i.fa-sort, th i.fa-sort-asc, th i.fa-sort-desc {
+  color: #333 !important;  /* Darker color for sorting icons */
+}
+
+
 
 

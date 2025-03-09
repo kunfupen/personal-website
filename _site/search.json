@@ -32,21 +32,21 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 3, 2025\n\n\nProject 1\n\n\nKhang Thai\n\n\n\n\nMar 3, 2025\n\n\nProject 2\n\n\nKhang Thai\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJul 28, 2024\n\n\nAmazon Purchase Predictor Regression Model\n\n\nKhang Thai\n\n\n\n\nMay 29, 2024\n\n\nLA Airbnb Analysis\n\n\nKhang Thai\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project_2.html",
     "href": "projects/project_2.html",
-    "title": "Project 2",
+    "title": "LA Airbnb Analysis",
     "section": "",
-    "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+    "text": "The “LA Airbnb Analysis” project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.\nThe analysis identifies key predictors, such as response rates, acceptance rates, ratings, profile pictures, and the duration of hosting. Using logistic regression and random forest models, we were able to achieve test accuracies of 74% and 76%, respectively. The analysis suggests that maintaining high ratings, acceptance rates, and response rates, along with continuous hosting, can significantly improve a host’s chances of becoming a superhost. Strategies recommended include addressing negative reviews, using automated messages, and pre-written responses to maintain high response rates, and leveraging features like instant booking and updated calendars to maintain high acceptance rates.In addition to host analysis, the project also delves into listing analysis using Natural Language Processing (NLP) techniques. Sentiment analysis of reviews helps identify factors contributing to low-rated listings.\nThe project includes an interactive dashboard for guests, displaying information such as price, room type, and the number of beds, along with filters to help guests find the right listing. Topic modeling using Latent Dirichlet Allocation (LDA) further aids in understanding the themes in guest reviews. Overall, the “LA Airbnb Analysis” project combines machine learning and NLP to offer actionable insights to Airbnb hosts. By identifying the critical factors for achieving superhost status and understanding guest sentiments, the project provides hosts with strategies to improve their listing visibility and guest satisfaction. The ultimate goal is to help hosts enhance their performance and profitability on the Airbnb platform.\n\nx = 2 + 5\nx\n\n[1] 7"
   },
   {
     "objectID": "projects/project_1.html",
     "href": "projects/project_1.html",
-    "title": "Project 1",
+    "title": "Amazon Purchase Predictor Regression Model",
     "section": "",
-    "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+    "text": "In this project, regression analysis was performed based on datasets that contained information about Amazon purchases from the specific demographics of customary, by training the model through the train and test datasets. The primary objective of this project was to predict the response variable log_total, given the explanatory variables from the provided dataset.\nFrom the initial investigation of the datasets, the explanatory variables of count_hh4 and count_G were narrowed, which could have contributed to a strong association of the response variable log_total. These predictions are based on the fact with more orders, there would be an expected positive correlation with the response variable as well. Furthermore, with a larger household and income, it is expected there would be an increase in order volume and total. To understand specific variables affecting the explanatory variable, model evaluation was performed through various data pre-processing, model recipes, and hyperparameters."
   },
   {
     "objectID": "about.html#education",
@@ -82,5 +82,33 @@
     "title": "About",
     "section": "Experience",
     "text": "Experience\nNeverEnding, Inc. | Software Developer Backend Intern | May 2024 - Aug 2024"
+  },
+  {
+    "objectID": "projects/project_2.html#dataset",
+    "href": "projects/project_2.html#dataset",
+    "title": "LA Airbnb Analysis",
+    "section": "Dataset:",
+    "text": "Dataset:"
+  },
+  {
+    "objectID": "projects/Project_2.html",
+    "href": "projects/Project_2.html",
+    "title": "LA Airbnb Analysis",
+    "section": "",
+    "text": "The “LA Airbnb Analysis” project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.\nThe analysis identifies key predictors, such as response rates, acceptance rates, ratings, profile pictures, and the duration of hosting. Using logistic regression and random forest models, we were able to achieve test accuracies of 74% and 76%, respectively. The analysis suggests that maintaining high ratings, acceptance rates, and response rates, along with continuous hosting, can significantly improve a host’s chances of becoming a superhost. Strategies recommended include addressing negative reviews, using automated messages, and pre-written responses to maintain high response rates, and leveraging features like instant booking and updated calendars to maintain high acceptance rates.In addition to host analysis, the project also delves into listing analysis using Natural Language Processing (NLP) techniques. Sentiment analysis of reviews helps identify factors contributing to low-rated listings.\nThe project includes an interactive dashboard for guests, displaying information such as price, room type, and the number of beds, along with filters to help guests find the right listing. Topic modeling using Latent Dirichlet Allocation (LDA) further aids in understanding the themes in guest reviews. Overall, the “LA Airbnb Analysis” project combines machine learning and NLP to offer actionable insights to Airbnb hosts. By identifying the critical factors for achieving superhost status and understanding guest sentiments, the project provides hosts with strategies to improve their listing visibility and guest satisfaction. The ultimate goal is to help hosts enhance their performance and profitability on the Airbnb platform."
+  },
+  {
+    "objectID": "projects/Project_2.html#dataset",
+    "href": "projects/Project_2.html#dataset",
+    "title": "LA Airbnb Analysis",
+    "section": "Dataset:",
+    "text": "Dataset:"
+  },
+  {
+    "objectID": "projects/Project_1.html",
+    "href": "projects/Project_1.html",
+    "title": "Amazon Purchase Predictor Regression Model",
+    "section": "",
+    "text": "In this project, regression analysis was performed based on datasets that contained information about Amazon purchases from the specific demographics of customary, by training the model through the train and test datasets. The primary objective of this project was to predict the response variable log_total, given the explanatory variables from the provided dataset.\nFrom the initial investigation of the datasets, the explanatory variables of count_hh4 and count_G were narrowed, which could have contributed to a strong association of the response variable log_total. These predictions are based on the fact with more orders, there would be an expected positive correlation with the response variable as well. Furthermore, with a larger household and income, it is expected there would be an increase in order volume and total. To understand specific variables affecting the explanatory variable, model evaluation was performed through various data pre-processing, model recipes, and hyperparameters."
   }
 ]
