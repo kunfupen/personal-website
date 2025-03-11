@@ -33,3 +33,25 @@ San Diego Miramar College \| San Diego, CA \| Aug 2021 - May 2023
 ## Experience
 
 NeverEnding, Inc. \| Software Developer Backend Intern \| May 2024 - Aug 2024
+
+## Skills
+
+### **Languages**
+
+**🐍 Python** | **🔵 R** | **🗄 SQL** |
+**☕ Java** | **🖥️ C++** | **⚡JavaScript **
+
+### **Technologies/Frameworks**
+
+- Microsoft Office
+- NumPy
+- Pandas
+- PostgresSQL
+- Stata
+- Tableau
+- Stripe API
+- Django
+- React
+- Jira
+- Github
+- Git

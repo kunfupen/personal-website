@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJul 28, 2024\n\n\nAmazon Purchase Predictor Regression Model\n\n\nKhang Thai\n\n\n\n\nMay 29, 2024\n\n\nLA Airbnb Analysis\n\n\nKhang Thai\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJul 28, 2024\n\n\nAmazon Purchase Predictor Regression Model\n\n\nKhang Thai\n\n\n\n\nMay 29, 2024\n\n\nLA Airbnb Analysis\n\n\nKhang Thai\n\n\n\n\nJan 26, 2025\n\n\nTo do List\n\n\nKhang Thai\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project_2.html",
@@ -110,5 +110,12 @@
     "title": "Amazon Purchase Predictor Regression Model",
     "section": "",
     "text": "In this project, regression analysis was performed based on datasets that contained information about Amazon purchases from the specific demographics of customary, by training the model through the train and test datasets. The primary objective of this project was to predict the response variable log_total, given the explanatory variables from the provided dataset.\nFrom the initial investigation of the datasets, the explanatory variables of count_hh4 and count_G were narrowed, which could have contributed to a strong association of the response variable log_total. These predictions are based on the fact with more orders, there would be an expected positive correlation with the response variable as well. Furthermore, with a larger household and income, it is expected there would be an increase in order volume and total. To understand specific variables affecting the explanatory variable, model evaluation was performed through various data pre-processing, model recipes, and hyperparameters."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages\n🐍 Python | 🔵 R | 🗄 SQL | ☕ Java | 🖥️ C++ | ⚡JavaScript \n\n\nTechnologies/Frameworks\n\nMicrosoft Office\nNumPy\nPandas\nPostgresSQL\nStata\nTableau\nStripe API\nDjango\nReact\nJira\nGithub\nGit"
   }
 ]
