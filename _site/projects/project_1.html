@@ -113,8 +113,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#outcome" id="toc-outcome" class="nav-link" data-scroll-target="#outcome">Outcome</a>
+  <ul class="collapse">
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links"><strong>Links</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -150,10 +161,59 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In this project, regression analysis was performed based on datasets that contained information about Amazon purchases from the specific demographics of customary, by training the model through the train and test datasets. The primary objective of this project was to predict the response variable log_total, given the explanatory variables from the provided dataset.</p>
-<p>From the initial investigation of the datasets, the explanatory variables of count_hh4 and count_G were narrowed, which could have contributed to a strong association of the response variable log_total. These predictions are based on the fact with more orders, there would be an expected positive correlation with the response variable as well. Furthermore, with a larger household and income, it is expected there would be an increase in order volume and total. To understand specific variables affecting the explanatory variable, model evaluation was performed through various data pre-processing, model recipes, and hyperparameters.</p>
+<div class="tech-buttons">
+<p><span class="tech">R</span> <span class="tech">Random Forest</span> <span class="tech">Tidyverse</span> <span class="tech">Caret</span> <span class="tech">ggplot2</span></p>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The <strong>Amazon Purchase Predictor Regression Model</strong> aims to analyze purchasing behaviors based on demographic and transaction data. The primary goal was to predict <strong>log_total</strong>, the total spending amount in log scale, using various explanatory variables. By implementing regression techniques, this study identifies key factors influencing customer spending habits and provides insights into consumer behavior.</p>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>To build the predictive model, the following steps were taken:</p>
+<ol type="1">
+<li><strong>Data Preprocessing:</strong>
+<ul>
+<li>Cleaned and handled missing values.<br>
+</li>
+<li>Normalized and transformed variables where necessary.<br>
+</li>
+<li>Selected relevant features based on correlation and importance.</li>
+</ul></li>
+<li><strong>Model Selection &amp; Training:</strong>
+<ul>
+<li>Experimented with multiple regression models, including <strong>Linear Regression, Ridge Regression, Lasso Regression, Random Forest, and KNN Regression</strong>.<br>
+</li>
+<li>Tuned hyperparameters using cross-validation for optimal performance.</li>
+</ul></li>
+<li><strong>Feature Engineering:</strong>
+<ul>
+<li>Identified key explanatory variables such as <strong>count_hh4</strong> (household size) and <strong>count_G</strong> (order count), which showed a strong correlation with <strong>log_total</strong>.<br>
+</li>
+<li>Considered interactions between income level and purchasing frequency to refine the model.</li>
+</ul></li>
+</ol>
+</section>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<p>The final model selected was a <strong>Random Forest regression model</strong>, which achieved:</p>
+<ul>
+<li><p><strong>Root Mean Squared Error (RMSE):</strong> <strong>0.1128934</strong><br>
+</p></li>
+<li><p><strong>Standard Error (SE):</strong> <strong>0.003002182</strong><br>
+</p></li>
+<li><p><strong>R² Score:</strong> <em>Higher than 0.9587, indicating strong predictive power.</em></p></li>
+<li><p>The results confirmed that <strong>household size, order count, and income level were significant predictors</strong> of Amazon purchases.<br>
+</p></li>
+<li><p><strong>KNN regression was tested but did not outperform tree-based models in terms of accuracy.</strong></p></li>
+</ul>
+<section id="links" class="level3">
+<h3 class="anchored" data-anchor-id="links"><strong>Links</strong></h3>
+<p>📂 <strong>Project Repository:</strong> <a href="https://github.com/kunfupen/Amazon-Purchase-Predictor-Regression-Model" class="blue-text">GitHub - Amazon Purchase Predictor</a> 📑 <strong>Final Report:</strong> <a href="Kaggle Report Submission - regression.pdf" class="blue-text">PDF Report</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

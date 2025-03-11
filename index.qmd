@@ -1,7 +1,7 @@
 ---
-title: Khang Thai
 format: html
-
+css: styles.css
+class: "index"
 ---
 
 

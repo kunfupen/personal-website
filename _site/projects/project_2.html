@@ -119,7 +119,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dataset" id="toc-dataset" class="nav-link active" data-scroll-target="#dataset">Dataset:</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#outcome" id="toc-outcome" class="nav-link" data-scroll-target="#outcome">Outcome</a>
+  <ul class="collapse">
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links"><strong>Links</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -157,13 +162,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The “LA Airbnb Analysis” project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.</p>
-<p>The analysis identifies key predictors, such as response rates, acceptance rates, ratings, profile pictures, and the duration of hosting. Using logistic regression and random forest models, we were able to achieve test accuracies of 74% and 76%, respectively. The analysis suggests that maintaining high ratings, acceptance rates, and response rates, along with continuous hosting, can significantly improve a host’s chances of becoming a superhost. Strategies recommended include addressing negative reviews, using automated messages, and pre-written responses to maintain high response rates, and leveraging features like instant booking and updated calendars to maintain high acceptance rates.In addition to host analysis, the project also delves into listing analysis using Natural Language Processing (NLP) techniques. Sentiment analysis of reviews helps identify factors contributing to low-rated listings.</p>
-<p>The project includes an interactive dashboard for guests, displaying information such as price, room type, and the number of beds, along with filters to help guests find the right listing. Topic modeling using Latent Dirichlet Allocation (LDA) further aids in understanding the themes in guest reviews. Overall, the “LA Airbnb Analysis” project combines machine learning and NLP to offer actionable insights to Airbnb hosts. By identifying the critical factors for achieving superhost status and understanding guest sentiments, the project provides hosts with strategies to improve their listing visibility and guest satisfaction. The ultimate goal is to help hosts enhance their performance and profitability on the Airbnb platform.</p>
-<section id="dataset" class="level2">
-<h2 class="anchored" data-anchor-id="dataset">Dataset:</h2>
+<div class="tech-buttons">
+<p><span class="tech">R</span> <span class="tech">Random Forest</span> <span class="tech">Tableau</span> <span class="tech">Tidyverse</span> <span class="tech">Caret</span></p>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The <strong>LA Airbnb Analysis</strong> project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.</p>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>To build the analysis, the following steps were taken:</p>
+<ol type="1">
+<li><strong>Host Analysis:</strong>
+<ul>
+<li>Analyzed key predictors such as <strong>response rates</strong>, <strong>acceptance rates</strong>, <strong>ratings</strong>, <strong>profile pictures</strong>, and <strong>duration of hosting</strong>.</li>
+<li>Used <strong>logistic regression</strong> and <strong>random forest models</strong> to determine factors contributing to superhost status.</li>
+</ul></li>
+<li><strong>Listing Analysis with NLP:</strong>
+<ul>
+<li>Applied <strong>Natural Language Processing (NLP)</strong> to conduct <strong>sentiment analysis</strong> of reviews.</li>
+<li>Used <strong>Latent Dirichlet Allocation (LDA)</strong> for <strong>topic modeling</strong> to identify themes in guest reviews.</li>
+</ul></li>
+<li><strong>Dashboard Development:</strong>
+<ul>
+<li>Created an <strong>interactive dashboard</strong> displaying important information like price, room type, and the number of beds.</li>
+<li>Included filters for guests to easily find the right listing based on their preferences.</li>
+</ul></li>
+</ol>
+<p><img src="image(1).jpeg" alt="Dashboard"></p>
+</section>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<p>The final analysis revealed that:</p>
+<ul>
+<li>Key predictors for achieving <strong>superhost status</strong> included <strong>high ratings</strong>, <strong>acceptance rates</strong>, and <strong>response rates</strong>.</li>
+<li><strong>Test accuracies</strong> for logistic regression and random forest models were <strong>74%</strong> and <strong>76%</strong>, respectively.</li>
+<li>Suggested strategies for hosts to improve their chances of becoming superhosts included maintaining high ratings, addressing negative reviews, and using features like <strong>instant booking</strong> and <strong>updated calendars</strong> to improve acceptance rates.</li>
+<li>Sentiment analysis of reviews helped identify common issues with low-rated listings.</li>
+</ul>
+<section id="links" class="level3">
+<h3 class="anchored" data-anchor-id="links"><strong>Links</strong></h3>
+<p>📂 <strong>Project Repository:</strong> <a href="https://github.com/kunfupen/LA-Airbnb-Analysis" class="blue-text">GitHub - LA Airbnb Analysis</a></p>
+<p>📊 <strong>Presentation Slides:</strong> <a href="Airbnb Analysis.pdf" class="blue-text">Airbnb Analysis</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
