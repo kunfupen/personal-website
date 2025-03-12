@@ -116,7 +116,7 @@
     "href": "about.html#skills",
     "title": "About",
     "section": "Skills",
-    "text": "Skills\n\nLanguages\n🐍 Python | 🔵 R | 🗄 SQL | ☕ Java | 🖥️ C++ | ⚡JavaScript \n\n\nTechnologies/Frameworks\n\nMicrosoft Office\nNumPy\nPandas\nPostgresSQL\nStata\nTableau\nStripe API\nDjango\nReact\nJira\nGithub\nGit"
+    "text": "Skills\n\nLanguages\n🐍 Python | 🔵 R | 🗄 SQL | ☕ Java | 🖥️ C++ | ⚡JavaScript\n\n\nTechnologies/Frameworks\n\nMicrosoft Office\nNumPy\nPandas\nPostgresSQL\nStata\nTableau\nStripe API\nDjango\nReact\nJira\nGithub\nGit"
   },
   {
     "objectID": "projects/Project_1.html#techonolgies-used",
@@ -144,7 +144,7 @@
     "href": "projects/Project_1.html#outcome",
     "title": "Amazon Purchase Predictor Regression Model",
     "section": "Outcome",
-    "text": "Outcome\nThe final model selected was a Random Forest regression model, which achieved:\n\nRoot Mean Squared Error (RMSE): 0.1128934\n\nStandard Error (SE): 0.003002182\n\nR² Score: Higher than 0.9587, indicating strong predictive power.\nThe results confirmed that household size, order count, and income level were significant predictors of Amazon purchases.\n\nKNN regression was tested but did not outperform tree-based models in terms of accuracy.\n\n\nLinks\n📂 Project Repository: GitHub - Amazon Purchase Predictor 📑 Final Report: PDF Report"
+    "text": "Outcome\nThe final model selected was a Random Forest regression model, which achieved:\n\nRoot Mean Squared Error (RMSE): 0.1128934\n\nStandard Error (SE): 0.003002182\n\nR² Score: Higher than 0.9587, indicating strong predictive power.\nThe results confirmed that household size, order count, and income level were significant predictors of Amazon purchases.\n\nKNN regression was tested but did not outperform tree-based models in terms of accuracy.\n\n\nLinks\n📂 Project Repository: GitHub - Amazon Purchase Predictor\n📑 Final Report: PDF Report"
   },
   {
     "objectID": "projects/Project_2.html#introduction",
@@ -166,5 +166,40 @@
     "title": "LA Airbnb Analysis",
     "section": "Outcome",
     "text": "Outcome\nThe final analysis revealed that:\n\nKey predictors for achieving superhost status included high ratings, acceptance rates, and response rates.\nTest accuracies for logistic regression and random forest models were 74% and 76%, respectively.\nSuggested strategies for hosts to improve their chances of becoming superhosts included maintaining high ratings, addressing negative reviews, and using features like instant booking and updated calendars to improve acceptance rates.\nSentiment analysis of reviews helped identify common issues with low-rated listings.\n\n\nLinks\n📂 Project Repository: GitHub - LA Airbnb Analysis\n📊 Presentation Slides: Airbnb Analysis"
+  },
+  {
+    "objectID": "projects/Project_3.html",
+    "href": "projects/Project_3.html",
+    "title": "To do List",
+    "section": "",
+    "text": "Java PostgreSQL JDBC"
+  },
+  {
+    "objectID": "projects/Project_3.html#introduction",
+    "href": "projects/Project_3.html#introduction",
+    "title": "To do List",
+    "section": "Introduction",
+    "text": "Introduction\nThe To-Do List Application is a simple Java-based program that allows users to manage tasks with basic CRUD (Create, Read, Update, Delete) functionality. It uses PostgreSQL as the backend database for task storage and provides an interactive user interface for managing tasks efficiently."
+  },
+  {
+    "objectID": "projects/Project_3.html#features",
+    "href": "projects/Project_3.html#features",
+    "title": "To do List",
+    "section": "Features",
+    "text": "Features\n\nAdd Task:\n\nCreate a new task with a name, description, due date, and status.\n\nView Tasks:\n\nRetrieve and display all tasks stored in the database.\n\nUpdate Task:\n\nModify the task name and status.\n\nDelete Task:\n\nRemove a task from the database permanently."
+  },
+  {
+    "objectID": "projects/Project_3.html#outcome",
+    "href": "projects/Project_3.html#outcome",
+    "title": "To do List",
+    "section": "Outcome",
+    "text": "Outcome\nThe project successfully implements a task management system with fundamental database operations. Future enhancements may include:\n\nUser authentication for personalized task management\n\nTask filtering and sorting by due date or priority\n\nIntegration with a front-end interface for a better user experience\n\n\nLinks\n📂 Project Repository: GitHub - To-Do List Application"
+  },
+  {
+    "objectID": "projects/Project_3.html#process",
+    "href": "projects/Project_3.html#process",
+    "title": "To do List",
+    "section": "Process",
+    "text": "Process\nTo develop the To-Do List Application, the following steps were taken:\n\nDatabase Setup:\n\nDesigned a PostgreSQL database schema with a tasks table.\n\nDefined columns for task ID, name, description, due date, and status.\n\nJDBC Integration:\n\nEstablished a JDBC connection to interact with the PostgreSQL database.\n\nImplemented SQL queries for inserting, retrieving, updating, and deleting tasks.\n\nBackend Development:\n\nCreated a Java application with CRUD operations.\n\nUsed Prepared Statements to prevent SQL injection.\n\nUser Interface Implementation:\n\nDeveloped a console-based UI for task management.\n\nProvided user-friendly prompts for adding, viewing, updating, and deleting tasks.\n\nTesting & Debugging:\n\nTested database interactions with sample task entries.\n\nDebugged connection issues and ensured data integrity."
   }
 ]

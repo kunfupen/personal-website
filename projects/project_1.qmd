@@ -48,4 +48,5 @@ The final model selected was a **Random Forest regression model**, which achieve
 
 ### **Links**  
 📂 **Project Repository:** <a href="https://github.com/kunfupen/Amazon-Purchase-Predictor-Regression-Model" class="blue-text">GitHub - Amazon Purchase Predictor</a>
+
 📑 **Final Report:** <a href="Kaggle Report Submission - regression.pdf" class="blue-text">PDF Report</a>

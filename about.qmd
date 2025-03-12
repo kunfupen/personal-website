@@ -18,6 +18,7 @@ about:
       url: "mailto:khangthai348@gmail.com"
 format: html
 css: styles.css
+body-classes: about-page
 ---
 
 I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master's degree in Data Science this coming Fall.
@@ -26,7 +27,7 @@ I am actively seeking a summer internship in Data Science
 
 ## Education
 
-University of California, Los Angeles | B.S. <span class="blue-text">[Statistics and Data Science](https://statistics.ucla.edu/index.php/academics/undergraduate/statistics-major-worksheets/)</span> | Sept 2023 - June 2025
+University of California, Los Angeles \| B.S. [[Statistics and Data Science](https://statistics.ucla.edu/index.php/academics/undergraduate/statistics-major-worksheets/)]{.blue-text} \| Sept 2023 - June 2025
 
 San Diego Miramar College \| San Diego, CA \| Aug 2021 - May 2023
 
@@ -38,20 +39,19 @@ NeverEnding, Inc. \| Software Developer Backend Intern \| May 2024 - Aug 2024
 
 ### **Languages**
 
-**🐍 Python** | **🔵 R** | **🗄 SQL** |
-**☕ Java** | **🖥️ C++** | **⚡JavaScript **
+**🐍 Python** \| **🔵 R** \| **🗄 SQL** \| **☕ Java** \| **🖥️ C++** \| **⚡JavaScript**
 
 ### **Technologies/Frameworks**
 
-- Microsoft Office
-- NumPy
-- Pandas
-- PostgresSQL
-- Stata
-- Tableau
-- Stripe API
-- Django
-- React
-- Jira
-- Github
-- Git
+-   Microsoft Office
+-   NumPy
+-   Pandas
+-   PostgresSQL
+-   Stata
+-   Tableau
+-   Stripe API
+-   Django
+-   React
+-   Jira
+-   Github
+-   Git

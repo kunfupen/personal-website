@@ -6,4 +6,5 @@ listing:
     - "projects/*.qmd"
 format: html
 css: styles.css
+body-classes: projects-page
 ---

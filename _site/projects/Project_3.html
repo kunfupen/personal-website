@@ -113,8 +113,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a></li>
+  <li><a href="#features" id="toc-features" class="nav-link" data-scroll-target="#features">Features</a></li>
+  <li><a href="#outcome" id="toc-outcome" class="nav-link" data-scroll-target="#outcome">Outcome</a>
+  <ul class="collapse">
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links"><strong>Links</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -150,8 +162,87 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="tech-buttons">
+<p><span class="tech">Java</span> <span class="tech">PostgreSQL</span> <span class="tech">JDBC</span></p>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The <strong>To-Do List Application</strong> is a simple Java-based program that allows users to manage tasks with basic <strong>CRUD (Create, Read, Update, Delete) functionality</strong>. It uses <strong>PostgreSQL</strong> as the backend database for task storage and provides an interactive user interface for managing tasks efficiently.</p>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>To develop the <strong>To-Do List Application</strong>, the following steps were taken:</p>
+<ol type="1">
+<li><strong>Database Setup:</strong>
+<ul>
+<li>Designed a <strong>PostgreSQL database schema</strong> with a tasks table.<br>
+</li>
+<li>Defined columns for <strong>task ID, name, description, due date, and status</strong>.</li>
+</ul></li>
+<li><strong>JDBC Integration:</strong>
+<ul>
+<li>Established a <strong>JDBC connection</strong> to interact with the PostgreSQL database.<br>
+</li>
+<li>Implemented <strong>SQL queries</strong> for inserting, retrieving, updating, and deleting tasks.</li>
+</ul></li>
+<li><strong>Backend Development:</strong>
+<ul>
+<li>Created a <strong>Java application</strong> with CRUD operations.<br>
+</li>
+<li>Used <strong>Prepared Statements</strong> to prevent SQL injection.</li>
+</ul></li>
+<li><strong>User Interface Implementation:</strong>
+<ul>
+<li>Developed a <strong>console-based UI</strong> for task management.<br>
+</li>
+<li>Provided user-friendly prompts for adding, viewing, updating, and deleting tasks.</li>
+</ul></li>
+<li><strong>Testing &amp; Debugging:</strong>
+<ul>
+<li>Tested database interactions with sample task entries.<br>
+</li>
+<li>Debugged connection issues and ensured data integrity.</li>
+</ul></li>
+</ol>
+</section>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
+<ol type="1">
+<li><strong>Add Task:</strong>
+<ul>
+<li>Create a new task with a <strong>name, description, due date, and status</strong>.</li>
+</ul></li>
+<li><strong>View Tasks:</strong>
+<ul>
+<li>Retrieve and display all tasks stored in the database.</li>
+</ul></li>
+<li><strong>Update Task:</strong>
+<ul>
+<li>Modify the task <strong>name and status</strong>.</li>
+</ul></li>
+<li><strong>Delete Task:</strong>
+<ul>
+<li>Remove a task from the database permanently.</li>
+</ul></li>
+</ol>
+</section>
+<section id="outcome" class="level2">
+<h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
+<p>The project successfully implements a <strong>task management system</strong> with fundamental database operations. Future enhancements may include:</p>
+<ul>
+<li><strong>User authentication</strong> for personalized task management<br>
+</li>
+<li><strong>Task filtering and sorting</strong> by due date or priority<br>
+</li>
+<li><strong>Integration with a front-end interface</strong> for a better user experience</li>
+</ul>
+<section id="links" class="level3">
+<h3 class="anchored" data-anchor-id="links"><strong>Links</strong></h3>
+<p>📂 <strong>Project Repository:</strong> <a href="https://github.com/kunfupen/todo-list" class="blue-text">GitHub - To-Do List Application</a></p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
