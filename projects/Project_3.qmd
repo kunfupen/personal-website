@@ -2,64 +2,65 @@
 date: "Jan 26, 2025"
 title: "To do List"
 author: "Khang Thai"
+image: "todo list.jpeg"
 ---
 
-<div class="tech-buttons">
-  <span class="tech">Java</span>
-  <span class="tech">PostgreSQL</span>
-  <span class="tech">JDBC</span>
-</div> 
+::: tech-buttons
+[Java]{.tech} [PostgreSQL]{.tech} [JDBC]{.tech}
+:::
+
+<div class="project-content">
 
 ## Introduction
 
 The **To-Do List Application** is a simple Java-based program that allows users to manage tasks with basic **CRUD (Create, Read, Update, Delete) functionality**. It uses **PostgreSQL** as the backend database for task storage and provides an interactive user interface for managing tasks efficiently.
 
-## Process  
+## Process
 
-To develop the **To-Do List Application**, the following steps were taken:  
+To develop the **To-Do List Application**, the following steps were taken:
 
-1. **Database Setup:**  
-   - Designed a **PostgreSQL database schema** with a tasks table.  
-   - Defined columns for **task ID, name, description, due date, and status**.  
+1.  **Database Setup:**
+    -   Designed a **PostgreSQL database schema** with a tasks table.\
+    -   Defined columns for **task ID, name, description, due date, and status**.
+2.  **JDBC Integration:**
+    -   Established a **JDBC connection** to interact with the PostgreSQL database.\
+    -   Implemented **SQL queries** for inserting, retrieving, updating, and deleting tasks.
+3.  **Backend Development:**
+    -   Created a **Java application** with CRUD operations.\
+    -   Used **Prepared Statements** to prevent SQL injection.
+4.  **User Interface Implementation:**
+    -   Developed a **console-based UI** for task management.\
+    -   Provided user-friendly prompts for adding, viewing, updating, and deleting tasks.
+5.  **Testing & Debugging:**
+    -   Tested database interactions with sample task entries.\
+    -   Debugged connection issues and ensured data integrity.
 
-2. **JDBC Integration:**  
-   - Established a **JDBC connection** to interact with the PostgreSQL database.  
-   - Implemented **SQL queries** for inserting, retrieving, updating, and deleting tasks.  
+## Features
 
-3. **Backend Development:**  
-   - Created a **Java application** with CRUD operations.  
-   - Used **Prepared Statements** to prevent SQL injection.  
+1.  **Add Task:**
+    -   Create a new task with a **name, description, due date, and status**.
+2.  **View Tasks:**
+    -   Retrieve and display all tasks stored in the database.
+3.  **Update Task:**
+    -   Modify the task **name and status**.
+4.  **Delete Task:**
+    -   Remove a task from the database permanently.
 
-4. **User Interface Implementation:**  
-   - Developed a **console-based UI** for task management.  
-   - Provided user-friendly prompts for adding, viewing, updating, and deleting tasks.  
+## Outcome
 
-5. **Testing & Debugging:**  
-   - Tested database interactions with sample task entries.  
-   - Debugged connection issues and ensured data integrity.  
+The project successfully implements a **task management system** with fundamental database operations. Future enhancements may include:
 
-## Features  
-
-1. **Add Task:**  
-   - Create a new task with a **name, description, due date, and status**.  
-
-2. **View Tasks:**  
-   - Retrieve and display all tasks stored in the database.  
-
-3. **Update Task:**  
-   - Modify the task **name and status**.  
-
-4. **Delete Task:**  
-   - Remove a task from the database permanently.
-   
-   
-## Outcome  
-
-The project successfully implements a **task management system** with fundamental database operations. Future enhancements may include:  
-
-- **User authentication** for personalized task management  
-- **Task filtering and sorting** by due date or priority  
-- **Integration with a front-end interface** for a better user experience  
+-   **User authentication** for personalized task management\
+-   **Task filtering and sorting** by due date or priority\
+-   **Integration with a front-end interface** for a better user experience
 
 ### **Links**
+
 📂 **Project Repository:** <a href="https://github.com/kunfupen/todo-list" class="blue-text">GitHub - To-Do List Application</a>
+
+<div class="project-nav-flex">
+  [← Previous Project](project_2.qmd){.prev-arrow}
+  
+</div>
+
+</div>

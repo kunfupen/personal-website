@@ -21,11 +21,13 @@ css: styles.css
 body-classes: about-page
 ---
 
-I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master's degree in Data Science this coming Fall.
+I am a incoming Master student at the University of Southern California studying Applied Data Science. I completed my Bachelors degree in Statistics and Data Science at UCLA.
 
-I am actively seeking a summer internship in Data Science
+I am actively seeking a career in Data Science or related fields.
 
 ## Education
+
+University of Southern California \| M.S. [[Applied Data Science](https://datascience.usc.edu/academics/master-of-science-in-applied-data-science/)]{.blue-text} \| Aug 2025 - May 2027
 
 University of California, Los Angeles \| B.S. [[Statistics and Data Science](https://statistics.ucla.edu/index.php/academics/undergraduate/statistics-major-worksheets/)]{.blue-text} \| Sept 2023 - June 2025
 

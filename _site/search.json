@@ -2,58 +2,58 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Khang Thai",
+    "title": "\nWelcome\n",
     "section": "",
-    "text": "Khang Thai"
+    "text": "↓"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a current senior at UCLA majoring in Statistics and Data Science. I will be pursuing a master’s degree in Data Science this coming Fall.\nI am actively seeking a summer internship in Data Science"
+    "text": "I am a incoming Master student at the University of Southern California studying Applied Data Science. I completed my Bachelors degree in Statistics and Data Science at UCLA.\nI am actively seeking a career in Data Science or related fields."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Khang Thai",
+    "title": "\nWelcome\n",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles |\nB.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA\nAug 2021 - May 2023"
+    "text": "Education\nUniversity of Southern California | M.S. Applied Data Science | Aug 2025 - May 2027\nUniversity of California, Los Angeles | B.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA | Aug 2021 - May 2023"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Khang Thai",
+    "title": "\nWelcome\n",
     "section": "Experience",
     "text": "Experience\nNeverEnding, Inc. | Software Developer Backend Intern | May 2024 - Aug 2024"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "projects",
+    "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJul 28, 2024\n\n\nAmazon Purchase Predictor Regression Model\n\n\nKhang Thai\n\n\n\n\nMay 29, 2024\n\n\nLA Airbnb Analysis\n\n\nKhang Thai\n\n\n\n\nJan 26, 2025\n\n\nTo do List\n\n\nKhang Thai\n\n\n\n\n\nNo matching items"
+    "text": "Amazon Purchase Predictor Regression Model\n\n\n\n\n\n\nJul 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLA Airbnb Analysis\n\n\n\n\n\n\nMay 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTo do List\n\n\n\n\n\n\nJan 26, 2025\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project_2.html",
     "href": "projects/project_2.html",
     "title": "LA Airbnb Analysis",
     "section": "",
-    "text": "The “LA Airbnb Analysis” project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.\nThe analysis identifies key predictors, such as response rates, acceptance rates, ratings, profile pictures, and the duration of hosting. Using logistic regression and random forest models, we were able to achieve test accuracies of 74% and 76%, respectively. The analysis suggests that maintaining high ratings, acceptance rates, and response rates, along with continuous hosting, can significantly improve a host’s chances of becoming a superhost. Strategies recommended include addressing negative reviews, using automated messages, and pre-written responses to maintain high response rates, and leveraging features like instant booking and updated calendars to maintain high acceptance rates.In addition to host analysis, the project also delves into listing analysis using Natural Language Processing (NLP) techniques. Sentiment analysis of reviews helps identify factors contributing to low-rated listings.\nThe project includes an interactive dashboard for guests, displaying information such as price, room type, and the number of beds, along with filters to help guests find the right listing. Topic modeling using Latent Dirichlet Allocation (LDA) further aids in understanding the themes in guest reviews. Overall, the “LA Airbnb Analysis” project combines machine learning and NLP to offer actionable insights to Airbnb hosts. By identifying the critical factors for achieving superhost status and understanding guest sentiments, the project provides hosts with strategies to improve their listing visibility and guest satisfaction. The ultimate goal is to help hosts enhance their performance and profitability on the Airbnb platform.\n\nx = 2 + 5\nx\n\n[1] 7"
+    "text": "R Random Forest Tableau Tidyverse Caret"
   },
   {
     "objectID": "projects/project_1.html",
     "href": "projects/project_1.html",
     "title": "Amazon Purchase Predictor Regression Model",
     "section": "",
-    "text": "In this project, regression analysis was performed based on datasets that contained information about Amazon purchases from the specific demographics of customary, by training the model through the train and test datasets. The primary objective of this project was to predict the response variable log_total, given the explanatory variables from the provided dataset.\nFrom the initial investigation of the datasets, the explanatory variables of count_hh4 and count_G were narrowed, which could have contributed to a strong association of the response variable log_total. These predictions are based on the fact with more orders, there would be an expected positive correlation with the response variable as well. Furthermore, with a larger household and income, it is expected there would be an increase in order volume and total. To understand specific variables affecting the explanatory variable, model evaluation was performed through various data pre-processing, model recipes, and hyperparameters."
+    "text": "R Random Forest Tidyverse Caret ggplot2"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
     "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles | B.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA | Aug 2021 - May 2023"
+    "text": "Education\nUniversity of Southern California | M.S. Applied Data Science | Aug 2025 - May 2027\nUniversity of California, Los Angeles | B.S. Statistics and Data Science | Sept 2023 - June 2025\nSan Diego Miramar College | San Diego, CA | Aug 2021 - May 2023"
   },
   {
     "objectID": "about.html#experience",
@@ -193,7 +193,7 @@
     "href": "projects/Project_3.html#outcome",
     "title": "To do List",
     "section": "Outcome",
-    "text": "Outcome\nThe project successfully implements a task management system with fundamental database operations. Future enhancements may include:\n\nUser authentication for personalized task management\n\nTask filtering and sorting by due date or priority\n\nIntegration with a front-end interface for a better user experience\n\n\nLinks\n📂 Project Repository: GitHub - To-Do List Application"
+    "text": "Outcome\nThe project successfully implements a task management system with fundamental database operations. Future enhancements may include:\n\nUser authentication for personalized task management\n\nTask filtering and sorting by due date or priority\n\nIntegration with a front-end interface for a better user experience\n\n\nLinks\n📂 Project Repository: GitHub - To-Do List Application\n\n← Previous Project"
   },
   {
     "objectID": "projects/Project_3.html#process",
@@ -201,5 +201,75 @@
     "title": "To do List",
     "section": "Process",
     "text": "Process\nTo develop the To-Do List Application, the following steps were taken:\n\nDatabase Setup:\n\nDesigned a PostgreSQL database schema with a tasks table.\n\nDefined columns for task ID, name, description, due date, and status.\n\nJDBC Integration:\n\nEstablished a JDBC connection to interact with the PostgreSQL database.\n\nImplemented SQL queries for inserting, retrieving, updating, and deleting tasks.\n\nBackend Development:\n\nCreated a Java application with CRUD operations.\n\nUsed Prepared Statements to prevent SQL injection.\n\nUser Interface Implementation:\n\nDeveloped a console-based UI for task management.\n\nProvided user-friendly prompts for adding, viewing, updating, and deleting tasks.\n\nTesting & Debugging:\n\nTested database interactions with sample task entries.\n\nDebugged connection issues and ensured data integrity."
+  },
+  {
+    "objectID": "projects/project_1.html#introduction",
+    "href": "projects/project_1.html#introduction",
+    "title": "Amazon Purchase Predictor Regression Model",
+    "section": "Introduction",
+    "text": "Introduction\nThe Amazon Purchase Predictor Regression Model aims to analyze purchasing behaviors based on demographic and transaction data. The primary goal was to predict log_total, the total spending amount in log scale, using various explanatory variables. By implementing regression techniques, this study identifies key factors influencing customer spending habits and provides insights into consumer behavior."
+  },
+  {
+    "objectID": "projects/project_1.html#process",
+    "href": "projects/project_1.html#process",
+    "title": "Amazon Purchase Predictor Regression Model",
+    "section": "Process",
+    "text": "Process\nTo build the predictive model, the following steps were taken:\n\nData Preprocessing:\n\nCleaned and handled missing values.\n\nNormalized and transformed variables where necessary.\n\nSelected relevant features based on correlation and importance.\n\nModel Selection & Training:\n\nExperimented with multiple regression models, including Linear Regression, Ridge Regression, Lasso Regression, Random Forest, and KNN Regression.\n\nTuned hyperparameters using cross-validation for optimal performance.\n\nFeature Engineering:\n\nIdentified key explanatory variables such as count_hh4 (household size) and count_G (order count), which showed a strong correlation with log_total.\n\nConsidered interactions between income level and purchasing frequency to refine the model."
+  },
+  {
+    "objectID": "projects/project_1.html#outcome",
+    "href": "projects/project_1.html#outcome",
+    "title": "Amazon Purchase Predictor Regression Model",
+    "section": "Outcome",
+    "text": "Outcome\nThe final model selected was a Random Forest regression model, which achieved:\n\nRoot Mean Squared Error (RMSE): 0.1128934\n\nStandard Error (SE): 0.003002182\n\nR² Score: Higher than 0.9587, indicating strong predictive power.\nThe results confirmed that household size, order count, and income level were significant predictors of Amazon purchases.\n\nKNN regression was tested but did not outperform tree-based models in terms of accuracy.\n\n\nLinks\n📂 Project Repository: GitHub - Amazon Purchase Predictor\n📑 Final Report: PDF Report\n\n→ Next Project"
+  },
+  {
+    "objectID": "projects/project_2.html#introduction",
+    "href": "projects/project_2.html#introduction",
+    "title": "LA Airbnb Analysis",
+    "section": "Introduction",
+    "text": "Introduction\nThe LA Airbnb Analysis project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform."
+  },
+  {
+    "objectID": "projects/project_2.html#process",
+    "href": "projects/project_2.html#process",
+    "title": "LA Airbnb Analysis",
+    "section": "Process",
+    "text": "Process\nTo build the analysis, the following steps were taken:\n\nHost Analysis:\n\nAnalyzed key predictors such as response rates, acceptance rates, ratings, profile pictures, and duration of hosting.\nUsed logistic regression and random forest models to determine factors contributing to superhost status.\n\nListing Analysis with NLP:\n\nApplied Natural Language Processing (NLP) to conduct sentiment analysis of reviews.\nUsed Latent Dirichlet Allocation (LDA) for topic modeling to identify themes in guest reviews.\n\nDashboard Development:\n\nCreated an interactive dashboard displaying important information like price, room type, and the number of beds.\nIncluded filters for guests to easily find the right listing based on their preferences."
+  },
+  {
+    "objectID": "projects/project_2.html#outcome",
+    "href": "projects/project_2.html#outcome",
+    "title": "LA Airbnb Analysis",
+    "section": "Outcome",
+    "text": "Outcome\nThe final analysis revealed that:\n\nKey predictors for achieving superhost status included high ratings, acceptance rates, and response rates.\nTest accuracies for logistic regression and random forest models were 74% and 76%, respectively.\nSuggested strategies for hosts to improve their chances of becoming superhosts included maintaining high ratings, addressing negative reviews, and using features like instant booking and updated calendars to improve acceptance rates.\nSentiment analysis of reviews helped identify common issues with low-rated listings.\n\n\nLinks\n📂 Project Repository: GitHub - LA Airbnb Analysis\n📊 Presentation Slides: Airbnb Analysis\n\n← Previous Project\n→ Next Project"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "\nWelcome\n",
+    "section": "About Me",
+    "text": "About Me\n\n           \n\nMy name is Khang Thai. I am a incoming Master student at the University of Southern California studying Applied Data Science. I completed my Bachelors degree in Statistics and Data Science at UCLA.\nI am actively seeking a career in Data Science or related fields."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "\nWelcome\n",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages\n\n🐍 Python 🔵 R 🗄 SQL ☕ Java 🖥️ C++ ⚡ JavaScript 🚀 Dart\n\n\n\nTechnologies/Frameworks\n\nMicrosoft Office NumPy Pandas PostgresSQL MySql Stata Tableau\nFlutter React Jira Github Git VSCode RStudio"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Projects",
+    "section": "🚀 Projects",
+    "text": "🚀 Projects\n\n🎯 Amazon Purchase Predictor\nA regression model built with R to predict customer spending behavior using Amazon purchase data.\nSkills: R, Data Cleaning, Feature Engineering, Regression, RMSE Optimization\n\n\n🏠 Airbnb Listing Analyzer\nAnalyzed LA Airbnb reviews and listings using NLP and Random Forest classification.\nSkills: NLP, Logistic Regression, Topic Modeling, Tableau\n\n\n🧠 Music vs. Puzzle Solving\nResearch project studying how different music genres affect puzzle cube solving performance.\nSkills: Experimental Design, Data Collection, Statistical Testing\n\n\n🕹 Sniped (Hide-and-Seek Game)\nA real-time game project where players track each other via GPS and play virtual hide-and-seek.\nSkills: Flutter, Firebase, GPS APIs, Game Logic"
+  },
+  {
+    "objectID": "index.html#project",
+    "href": "index.html#project",
+    "title": "\nWelcome\n",
+    "section": "🚀 Projects",
+    "text": "🚀 Projects\n\n\n🎯 Amazon Purchase Predictor\nA regression model built with R to predict customer spending behavior using Amazon purchase data.\nSkills: R, Data Cleaning, Feature Engineering, Regression, RMSE Optimization\n\n\n🏠 Airbnb Listing Analyzer\nAnalyzed LA Airbnb reviews and listings using NLP and Random Forest classification.\nSkills: NLP, Logistic Regression, Topic Modeling, Tableau\n\n\n🧠 Music vs. Puzzle Solving\nResearch project studying how different music genres affect puzzle cube solving performance.\nSkills: Experimental Design, Data Collection, Statistical Testing\n\n\n🕹 Sniped (Hide-and-Seek Game)\nA real-time game project where players track each other via GPS and play virtual hide-and-seek.\nSkills: Flutter, Firebase, GPS APIs, Game Logic"
   }
 ]

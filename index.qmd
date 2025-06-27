@@ -5,4 +5,91 @@ class: "index"
 body-classes: index
 ---
 
+<div class="hero-section">
+
+  <h1 class="hero-title">Welcome</h1>
+
+
+</div>
+
+<a href="#about" class="scroll-down">↓</a>
+
+
+<div class="home-container" id="about">
+  <img src="profile_pic.jpeg" alt="Profile Picture" class="profile-img">
+
+## About Me
+
+<div class="social-icons">
+  <a href="Khang_Thai_Resume.pdf" target="_blank" aria-label="Resume">
+    <i class="bi bi-file-earmark-text"></i>
+  </a>
+  <a href="mailto:khangthai348@gmail.com" target="_blank" aria-label="Email">
+    <i class="bi bi-envelope"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/khang-thai-361651203/" target="_blank" aria-label="LinkedIn">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  <a href="https://github.com/kunfupen" target="_blank" aria-label="GitHub">
+    <i class="bi bi-github"></i>
+  </a>
+</div>
+
+
+
+
+My name is Khang Thai. I am a incoming Master student at the University of Southern California studying Applied Data Science. I completed my Bachelors degree in Statistics and Data Science at UCLA.
+
+I am actively seeking a career in Data Science or related fields.
+
+## Education
+
+University of Southern California \| M.S. [[Applied Data Science](https://datascience.usc.edu/academics/master-of-science-in-applied-data-science/)]{.blue-text} \| Aug 2025 - May 2027
+
+University of California, Los Angeles \| B.S. [[Statistics and Data Science](https://statistics.ucla.edu/index.php/academics/undergraduate/statistics-major-worksheets/)]{.blue-text} \| Sept 2023 - June 2025
+
+San Diego Miramar College \| San Diego, CA \| Aug 2021 - May 2023
+
+## Experience
+
+NeverEnding, Inc. \| Software Developer Backend Intern \| May 2024 - Aug 2024
+
+## Skills
+
+#### Languages
+
+<div class="tech-group">
+  <span class="tech-box">🐍 Python</span>
+  <span class="tech-box">🔵 R</span>
+  <span class="tech-box">🗄 SQL</span>
+  <span class="tech-box">☕ Java</span>
+  <span class="tech-box">🖥️ C++</span>
+  <span class="tech-box">⚡ JavaScript</span>
+  <span class="tech-box">🚀 Dart</span>
+</div>
+
+#### Technologies/Frameworks
+
+<div class="tech-group">
+  <span class="tech-box">Microsoft Office</span>
+  <span class="tech-box">NumPy</span>
+  <span class="tech-box">Pandas</span>
+  <span class="tech-box">PostgresSQL</span>
+  <span class="tech-box">MySql</span>
+  <span class="tech-box">Stata</span>
+  <span class="tech-box">Tableau</span>
+  
+  <span class="tech-box">Flutter</span>
+  <span class="tech-box">React</span>
+  <span class="tech-box">Jira</span>
+  <span class="tech-box">Github</span>
+  <span class="tech-box">Git</span>
+  <span class="tech-box">VSCode</span>
+  <span class="tech-box">RStudio</span>
+</div>
+ 
+
+
+</div>
+
 

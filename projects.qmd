@@ -1,10 +1,13 @@
 ---
-title: "projects"
-listing: 
-  type: table
-  contents:
-    - "projects/*.qmd"
+title: "Projects"
 format: html
 css: styles.css
 body-classes: projects-page
+listing:
+  type: grid
+  contents:
+    - "posts"
+    - "projects/*.qmd"
+  fields: [title, date, description, image]
+
 ---

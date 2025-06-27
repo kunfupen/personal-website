@@ -4,47 +4,56 @@ title: "LA Airbnb Analysis"
 author: "Khang Thai"
 format: html
 css: styles.css
+image: "airbnb.jpeg"
 ---
-<div class="tech-buttons">
-  <span class="tech">R</span>
-  <span class="tech">Random Forest</span>
-  <span class="tech">Tableau</span>
-  <span class="tech">Tidyverse</span>
-  <span class="tech">Caret</span>
-</div> 
+
+::: tech-buttons
+[R]{.tech} [Random Forest]{.tech} [Tableau]{.tech} [Tidyverse]{.tech} [Caret]{.tech}
+:::
+
+<div class="project-content">
 
 ## Introduction
 
 The **LA Airbnb Analysis** project aims to analyze Airbnb listings and reviews in Los Angeles. The primary objective is to provide insights and strategies to Airbnb hosts to enhance their performance and profitability. The datasets used are in CSV format, comprising two main datasets: one with 45,591 rows of listings and another with 55,240 reviews. The host analysis focuses on understanding the factors that contribute to a host achieving superhost status. Superhosts are associated with higher profits and more visibility on the platform.
 
-
 ## Process
 
 To build the analysis, the following steps were taken:
 
-1. **Host Analysis:**  
-   - Analyzed key predictors such as **response rates**, **acceptance rates**, **ratings**, **profile pictures**, and **duration of hosting**.
-   - Used **logistic regression** and **random forest models** to determine factors contributing to superhost status.
-   
-2. **Listing Analysis with NLP:**  
-   - Applied **Natural Language Processing (NLP)** to conduct **sentiment analysis** of reviews.
-   - Used **Latent Dirichlet Allocation (LDA)** for **topic modeling** to identify themes in guest reviews.
+1.  **Host Analysis:**
+    -   Analyzed key predictors such as **response rates**, **acceptance rates**, **ratings**, **profile pictures**, and **duration of hosting**.
+    -   Used **logistic regression** and **random forest models** to determine factors contributing to superhost status.
+2.  **Listing Analysis with NLP:**
+    -   Applied **Natural Language Processing (NLP)** to conduct **sentiment analysis** of reviews.
+    -   Used **Latent Dirichlet Allocation (LDA)** for **topic modeling** to identify themes in guest reviews.
+3.  **Dashboard Development:**
+    -   Created an **interactive dashboard** displaying important information like price, room type, and the number of beds.
+    -   Included filters for guests to easily find the right listing based on their preferences.
 
-3. **Dashboard Development:**  
-   - Created an **interactive dashboard** displaying important information like price, room type, and the number of beds.
-   - Included filters for guests to easily find the right listing based on their preferences.
+## Outcome
 
-## Outcome  
 The final analysis revealed that:
 
-- Key predictors for achieving **superhost status** included **high ratings**, **acceptance rates**, and **response rates**.
-- **Test accuracies** for logistic regression and random forest models were **74%** and **76%**, respectively.
-- Suggested strategies for hosts to improve their chances of becoming superhosts included maintaining high ratings, addressing negative reviews, and using features like **instant booking** and **updated calendars** to improve acceptance rates.
-- Sentiment analysis of reviews helped identify common issues with low-rated listings.
+-   Key predictors for achieving **superhost status** included **high ratings**, **acceptance rates**, and **response rates**.
+-   **Test accuracies** for logistic regression and random forest models were **74%** and **76%**, respectively.
+-   Suggested strategies for hosts to improve their chances of becoming superhosts included maintaining high ratings, addressing negative reviews, and using features like **instant booking** and **updated calendars** to improve acceptance rates.
+-   Sentiment analysis of reviews helped identify common issues with low-rated listings.
 
+### **Links**
 
-### **Links**  
-📂 **Project Repository:** <a href="https://github.com/kunfupen/LA-Airbnb-Analysis" class="blue-text">GitHub - LA Airbnb Analysis</a>  
+📂 **Project Repository:** <a href="https://github.com/kunfupen/LA-Airbnb-Analysis" class="blue-text">GitHub - LA Airbnb Analysis</a>
 
 📊 **Presentation Slides:** <a href="Airbnb Analysis.pdf" class="blue-text">Airbnb Analysis</a>
 
+
+<div class="project-nav-flex">
+  [← Previous Project](project_1.qmd){.prev-arrow}
+  
+  [→ Next Project](Project_3.qmd){.next-arrow}
+</div>
+
+
+
+
+</div>
